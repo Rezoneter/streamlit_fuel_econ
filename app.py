@@ -7,8 +7,10 @@ import seaborn as sb
 
 def main():
     df = pd.read_csv('./data/fuel_econ.csv')
-    print(df)
-    st.header('Analyzing Car Data')
+ 
+    st.title('Analyzing Car Data')
+    st.subheader('Show chart')
+
     if st.checkbox('Show DataFrame'):
         st.dataframe(df)
     else : 
@@ -38,6 +40,7 @@ def main():
         st.dataframe(df[selected_list].corr())
     else:
         pass
+
 
 
 
