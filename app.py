@@ -8,7 +8,7 @@ import seaborn as sb
 def main():
     df = pd.read_csv('./data/fuel_econ.csv')
  
-    st.title('Analyzing Car Data')
+    st.title('Analyzing Car Data.')
     st.subheader('Show chart')
 
     if st.checkbox('Show DataFrame'):
