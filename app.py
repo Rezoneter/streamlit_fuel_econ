@@ -9,7 +9,7 @@ def main():
     df = pd.read_csv('./data/fuel_econ.csv')
  
     st.title('Analyzing Car Data.')
-    st.subheader('Show chart')
+    st.subheader('Data of opeating car in america ')
 
     if st.checkbox('Show DataFrame'):
         st.dataframe(df)
