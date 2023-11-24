@@ -21,6 +21,6 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           script: |
-            cd cd Github/streamlit_fuel_econ/                        
+            cd Github/streamlit_fuel_econ/                        
             git pull
 
